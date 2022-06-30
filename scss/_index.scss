@@ -1,0 +1,21 @@
+#grilla {
+    background-color: burlywood;
+    display: grid;
+    grid-template-areas:
+        "aside"
+        "contenedor";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+    min-width: 100%;
+}
+
+.imagenes {
+    background-color: antiquewhite;
+    width: 300px;
+    padding-top: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+}

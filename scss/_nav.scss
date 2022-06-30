@@ -1,0 +1,21 @@
+nav {
+    ul {
+        li {
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            list-style: none;
+            margin-top: 50px;
+            margin-left: 110px;
+            text-align: center;
+            font-size: large;
+            font-family: 'Montserrat', sans-serif;
+            a {
+                text-decoration: none;
+                color: black;
+            }
+            
+        } 
+    }
+} 
+
