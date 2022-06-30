@@ -1,13 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import "nav";
-@import "footer";
-@import "envios";
-@import "index";
-@import"media";
+@import'./base/base';
+
 * {
     padding: 0%;
     margin: 0%;
 }
+
+.barra{
+    background-color:blanchedalmond;
+    @media(min-width: 768px){
+    background-color: rgb(211, 158, 141);
+    }
+    @media(min-width:1024px){
+        background-color: darksalmon;
+    }
+}
+
 
 body {
     background-color: rgb(250, 245, 249);
@@ -31,26 +38,35 @@ body {
     justify-content: center;
     align-items: center;
     font-size: x-large;
-    
-    
+}
+
+#caja {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
 }
 
 .botonCompra{
     background-color: darksalmon;
     margin-top: 20px;
     margin-bottom: 20px;
+    @media(min-width:768px){
+        background-color:rgb(211, 158, 141);
+    }
 }
 
 
 h1 {
     text-align: center;
     font-size: xx-large;
-    font-family: 'Montserrat', sans-serif;
+    font-family:$fuente-principal;
     color: black;
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: $fuente-principal;
     text-align: center;
     margin: 10px;
     justify-content: space-around;
@@ -58,13 +74,13 @@ h2 {
 }
 
 h3 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: $fuente-principal;
     margin: 30px;
     text-align: center;
     background-color: darksalmon;
 }
 
 h4 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: $fuente-principal;
     margin: 10px;
 }

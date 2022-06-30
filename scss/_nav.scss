@@ -14,7 +14,9 @@ nav {
                 text-decoration: none;
                 color: black;
             }
-            
+            @media(min-width:1024px){
+            display:inline-block;
+            }
         } 
     }
 } 
